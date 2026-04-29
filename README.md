@@ -1,2 +1,2 @@
 # discord-homerun-bot
-Instant MLB home run alerts to Discord
+Instant MLB home run alerts to Discord.
