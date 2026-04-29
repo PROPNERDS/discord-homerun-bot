@@ -120,15 +120,7 @@ def check_game(game_pk, seen):
         print(f"Game failed {game_pk}: {e}")
 
 def main():
-    print("Starting HR scan...")
-    seen = load_seen()
-    games = get_games()
-
-    for game_pk in games:
-        check_game(game_pk, seen)
-
-    save_seen(seen)
-    print("Done.")
+    discord_post("🚨 TEST ALERT 🚨 Your MLB Home Run Bot is connected and working! #PropNerds")
 
 if __name__ == "__main__":
     main()
